@@ -8,30 +8,38 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 export default function Dropdown() {
   return (
-    <div class=" flex flex-col">
+    <div className=" flex flex-col">
       <div>
-        <button class="flex flex-row items-center peer py-2 text-black  dark:text-white">
-          Dropdown
+        <button className="flex flex-row items-center peer py-2 text-black  dark:text-white">
+          Marketplace
           <RiArrowDropDownLine />
         </button>
 
         {/* <!-- the menu here --> */}
-        <div
-          class="hidden peer-hover:flex hover:flex
-         h-auto flex-col bg-white drop-shadow-lg z-10 absolute">
-          <a class="px-5 py-3 hover:bg-gray-200" href="#">
+        <div className="hidden peer-hover:flex hover:flex h-auto flex-col dark:bg-black dark:text-white bg-white drop-shadow-lg z-10 absolute rounded-lg text-sm">
+          <a
+            className="rounded-t-lg px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600"
+            href="#">
             Best AI Prompts
           </a>
-          <a class="px-5 py-3 hover:bg-gray-200" href="#">
+          <a
+            className="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600"
+            href="#">
             Best Midjourney Prompt
           </a>
-          <a class="px-5 py-3 hover:bg-gray-200" href="#">
+          <a
+            className="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600"
+            href="#">
             Best Gpt Prompt
           </a>
-          <a class="px-5 py-3 hover:bg-gray-200" href="#">
+          <a
+            className="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600"
+            href="#">
             Best DALL-E Prompt
           </a>
-          <a class="px-5 py-3 hover:bg-gray-200" href="#">
+          <a
+            className="rounded-b-lg px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600"
+            href="#">
             Best Stable Diffusion Prompt
           </a>
         </div>

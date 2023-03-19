@@ -55,18 +55,20 @@ export default function Navbar() {
                 <BiSearch className="" />
               </div>
             </div>
-            <div className="ml-2 flex flex-row items-center gap-4">
+            <div className="ml-2 hidden md:flex flex-row items-center gap-4 text-sm font-semibold">
               <Menu />
-              <Link href="#" className="">
+              <Link href="#" className="hover:underline hover:text-gray-400">
                 Generate
               </Link>
-              <Link href="#" className="">
+              <Link href="#" className="hover:underline hover:text-gray-400">
                 Hire
               </Link>
-              <Link href="#" className="">
+              <Link href="#" className="hover:underline hover:text-gray-400">
                 Login
               </Link>
-              <Link href="#" className="mr-2">
+              <Link
+                href="#"
+                className="mr-2 hover:underline hover:text-gray-400">
                 Sell
               </Link>
             </div>
