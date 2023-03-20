@@ -38,7 +38,7 @@ const HomePage = () => {
                 width={200}
                 height={50}
               />
-              <div className="p-2 dark:bg-gray-800 ">
+              <div className="p-2 dark:bg-gray-800 rounded-b-lg">
                 <h4 className="text-md font-semibold text-black dark:text-white whitespace-nowrap overflow-hidden text-ellipsis ">
                   {items.title}
                 </h4>

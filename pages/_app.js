@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
       <ThemeProvider enableSystem={true} attribute="class">
         <Navbar />
         <Component {...pageProps} />
-        {/* <Footer /> */}
+        <Footer />
       </ThemeProvider>
     </Layout>
   );
